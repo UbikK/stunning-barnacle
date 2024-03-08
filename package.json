@@ -1,0 +1,28 @@
+{
+  "name": "videoplayer",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/video.js": "^7.3.40",
+    "@types/videojs": "^5.16.2",
+    "typescript": "^4.5.4",
+    "video.js": "^7.19.2",
+    "vite": "^2.9.9"
+  }
+}
